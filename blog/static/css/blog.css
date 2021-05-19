@@ -12,21 +12,25 @@
     color: black;
     font-size: 36pt;
     text-decoration: none;
+    font-family: 'Lobster';
+
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: 'Lobster', cursive;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .date {
-    color: #828282;
+    color: black;
+    background-color: pink;
 }
 
 .save {
     float: right;
+    color: pink;
 }
 
 .post-form textarea,
@@ -37,10 +41,22 @@ h4 {
 .top-menu,
 .top-menu:hover,
 .top-menu:visited {
-    color: #ffffff;
+    color: #000000;
     float: right;
-    font-size: 26pt;
+    text-transform: uppercase;
+    font-size: 12pt;
     margin-right: 20px;
+    text-decoration: none;
+}
+
+.top-menu a {
+    color:black;
+    font-weight:800;
+    text-decoration: none;
+}
+
+.top-menu a:hover {
+    color:crimson;
 }
 
 .post {
@@ -52,23 +68,29 @@ h4 {
     color: #000000;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 28px;
+    text-decoration: none;
 }
 
-.post > .date,
-.post > .actions {
+.post > .actions,
+.post > .date {
     float: right;
-    color: gainsboro;
-    font-size: 8px;
+    color: black;
+    font-size: 18px;
 }
 
 .btn-default,
 .btn-default:visited {
-    color: #C25100;
+    color: black;
     background: none;
-    border-color: #C25100;
+    border-color:black;
 }
 
 .btn-default:hover {
-    color: #FFFFFF;
-    background-color: #C25100;
+    color: black;
+    background-color: pink;
+}
+
+svg {
+    fill:black;
+    font-size:16px;
 }
